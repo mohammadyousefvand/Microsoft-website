@@ -1,4 +1,4 @@
-<h3> Microsoft - website </h3>
+<h2> Microsoft - website </h2>
 HTML & CSS 😅
 
 <hr>
