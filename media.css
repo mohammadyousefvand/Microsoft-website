@@ -1,0 +1,53 @@
+/*----------media Query---------*/
+/*--------Responsive----------*/
+
+@media screen and (max-width: 1300px) {
+    section{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /*-------tablet----------*/
+
+  @media screen and (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    header .nav {
+      display: flex;
+      flex-direction: column;
+      line-height: 60px;
+      margin: 0;
+    }
+    header .logo{
+      margin: 0;
+    }
+    .nav li{
+      border-bottom: 1px solid #ccc;
+    }
+    section{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    footer{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /*---------Phone -----------*/
+
+  @media screen and (max-width: 580px)
+  {
+    footer{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    main p {
+      display: none;
+    }
+  }
