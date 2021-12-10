@@ -10,7 +10,17 @@
       grid-template-columns: repeat(3, 1fr);
     }
   }
-
+   /*-------Laptop----------*/
+   
+  @media screen and (max-width: 1024px) {
+    main {
+      flex-direction: column;
+    }
+    main .content{
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
   /*-------tablet----------*/
 
   @media screen and (max-width: 768px) {
@@ -35,6 +45,9 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
     }
+    main .controler img{
+      width: 400px;
+    }
     footer{
       grid-template-columns: repeat(2, 1fr);
     }
@@ -47,7 +60,10 @@
     footer{
       grid-template-columns: repeat(1, 1fr);
     }
-    main p {
-      display: none;
+    main .controler img{
+      width: 300px;
+    }
+    main h4{
+      font-size: 20px;
     }
   }
